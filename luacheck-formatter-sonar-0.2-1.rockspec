@@ -1,7 +1,7 @@
 package = "luacheck-formatter-sonar"
 version = "0.2-1"
 source = {
-   url = "https://github.com/xpol/luacheck-formatter-sonar",
+   url = "https://github.com/xpol/luacheck-formatter-sonar.git",
    tag = "v0.2"
 }
 description = {
