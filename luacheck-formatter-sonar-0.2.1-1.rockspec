@@ -1,8 +1,9 @@
 package = "luacheck-formatter-sonar"
-version = "0.2-1"
+version = "0.2.1-1"
+local v = version:gsub("%-%d", "")
 source = {
-   url = "https://github.com/xpol/luacheck-formatter-sonar.git",
-   tag = "v0.2"
+   url = "https://github.com/xpol/luacheck-formatter-sonar",
+   tag = "v"..v
 }
 description = {
    summary = "A sonar formatter for luacheck.",
