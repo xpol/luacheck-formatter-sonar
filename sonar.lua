@@ -95,7 +95,7 @@ local function snoar_fatal(file_name, file_report)
 end
 
 local function sonar(report, file_names)
-   local issues = {}
+   local issues = setmetatable({}, {__jsontype='array'})
 
   for i, file_report in ipairs(report) do
      local file_name = file_names[i]
