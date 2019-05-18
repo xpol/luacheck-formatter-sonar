@@ -1,5 +1,5 @@
 package = "luacheck-formatter-sonar"
-local v = "0.2.2"
+local v = "0.3.0"
 version = v.."-1"
 
 source = {
