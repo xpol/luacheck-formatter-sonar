@@ -17,7 +17,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.1, <= 5.4",
-   "lua-json >= 0.0.1"
+   "simple-lua-json >= 0.0.1"
 }
 build = {
   type = "builtin",

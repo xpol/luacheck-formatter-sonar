@@ -1,5 +1,5 @@
 local format = require('luacheck.format')
-local json = require('lua-json')
+local json = require('simple-lua-json')
 
 local sonar_error = {
   severity = "BLOCKER",
