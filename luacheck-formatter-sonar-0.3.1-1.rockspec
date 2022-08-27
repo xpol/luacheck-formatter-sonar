@@ -1,9 +1,9 @@
-package = "luacheck-formatter-sonar"
-local v = "0.3.0"
+package = "luacheck-formatter-sonarqube"
+local v = "0.3.1"
 version = v.."-1"
 
 source = {
-   url = "git+https://github.com/xpol/luacheck-formatter-sonar.git",
+   url = "git+https://github.com/muulfz/luacheck-formatter-sonar.git",
    tag = "v"..v
 }
 description = {
@@ -12,12 +12,12 @@ description = {
       An external formatter for luacheck.
       This formatter output error in generic issue data format and can be imported by sonar scanner.
    ]],
-   homepage = "https://github.com/xpol/luacheck-formatter-sonar",
+   homepage = "https://github.com/muulfz/luacheck-formatter-sonar",
    license = "MIT/X11"
 }
 dependencies = {
-   "lua >= 5.1, < 5.4",
-   "rapidjson >= 0.4.2"
+   "lua >= 5.1, <= 5.4",
+   "lua-json >= 0.0.1"
 }
 build = {
   type = "builtin",

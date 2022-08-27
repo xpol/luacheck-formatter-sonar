@@ -1,5 +1,5 @@
 local format = require('luacheck.format')
-local rapidjson = require('rapidjson')
+local json = require('lua-json')
 
 local sonar_error = {
   severity = "BLOCKER",
@@ -113,7 +113,7 @@ local function sonar(report, file_names)
     issues = issues
   }
 
-  return rapidjson.encode(report, {pretty = true, sort_keys = true})
+  return json.encode(report)
 end
 
 return sonar
